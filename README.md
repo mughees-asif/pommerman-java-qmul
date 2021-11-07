@@ -1,22 +1,45 @@
-AIIDE 2019 Artifact
--------------------
+# Pommerman
 
-* Final paper: https://github.com/GAIGResearch/java-pommerman/raw/master/AIIDE-19_paper-46.pdf
+## Monte Carlo Tree Search with Progressive Bias and Decaying Reward
 
-* Download the artifact: clone this repository (master branch) or download as .zip file here: https://github.com/GAIGResearch/java-pommerman/archive/master.zip
+### Setup
 
-* Instructions to run the artifact:
- 0) You need Java 8.0.1 version (or higher) to run this code.
- 1) Option 1: download the source, compile and execute the class Run.java (see below for execution modes). 
- 2) Option 2: directly run run.jar, included in jars/ 
+* Open the project using a suitable IDE, such as [IntelliJ](https://www.jetbrains.com/idea/).
+* Clone the following repository: `git clone https://github.com/GAIGResearch/java-pommerman`
+* Naviagte to the `players` package:
+```
+java-pommerman
+│   README.md  
+└───...
+└───src
+│   └───core 
+│   └───...                
+│   └───players 
+│       └───mcts
+│       └───... 
+│       └───rhea
+```
 
+* Clone this repository to the `players` package of `java-pommerman`: ``  
+```
+java-pommerman
+│   README.md
+│   file001.txt    
+│
+└───folder1
+│   │   file011.txt
+│   │   file012.txt
+│   │
+│   └───subfolder1
+│       │   file111.txt
+│       │   file112.txt
+│       │   ...
+│   
+└───folder2
+    │   file021.txt
+    │   file022.txt
+```
 
-Executing Run.java / run.jar
-----------------------------
-
-This runs either a single game of pommerman (visuals on) or a series of games (headless), reporting statistics at the end. The usage is 'java Run' or 'java -jar run.jar' with 8 parameters:
-
-* \[arg index = 0\] Game Mode. 0: FFA; 1: TEAM <br>
 * \[arg index = 1\] Number of level generation seeds \[S\]. "-1" to execute with the ones from the paper (20). <br>
 * \[arg index = 2\] Repetitions per seed \[N\]. "1" for one game only with visuals. <br>
 * \[arg index = 3\] Vision Range \[VR\]. (0, 1, 2 for PO; -1 for Full Observability)<br>
@@ -51,12 +74,5 @@ You can modify the code to execute different games as well (i.e. different agent
 
 All games you play are logged in res/gamelogs/
 
-Extra
------
-
-All raw data and plots for the results reported in the paper is in the data/ folder (contains *more* plots than what could be included in the paper). You can either:
-
-1) Download the Zip file here https://github.com/GAIGResearch/java-pommerman/blob/master/data/Analysis%20of%20Statistical%20Forward%20Planning%20methods%20in%20Pommerman.zip?raw=true
-2) Explore the raw data and all generated plots on the repository yourself: https://github.com/GAIGResearch/java-pommerman/tree/master/data/Analysis%20of%20Statistical%20Forward%20Planning%20methods%20in%20Pommerman
 
 
