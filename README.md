@@ -6,38 +6,48 @@
 
 * Open the project using a suitable IDE, such as [IntelliJ](https://www.jetbrains.com/idea/).
 * Clone the following repository: `git clone https://github.com/GAIGResearch/java-pommerman`
-* Naviagte to the `players` package:
+* Naviagte to the `players` directory:
 ```
 java-pommerman
 │   README.md  
+│   
 └───...
+│   
 └───src
+│   │   
 │   └───core 
-│   └───...                
-│   └───players 
-│       └───mcts
-│       └───... 
+│   │   
+│   └───...
+│   │                   
+│   └───players
+│   │   │    
+│   │   └───mcts
+│   │   │   
+│   │   └───...
+│   │   │    
 │       └───rhea
 ```
 
 * Clone this repository to the `players` package of `java-pommerman`: ``  
 ```
 java-pommerman
-│   README.md
-│   file001.txt    
-│
-└───folder1
-│   │   file011.txt
-│   │   file012.txt
-│   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
+│   README.md  
 │   
-└───folder2
-    │   file021.txt
-    │   file022.txt
+└───...
+│   
+└───src
+│   │   
+│   └───core 
+│   │   
+│   └───...
+│   │                   
+│   └───players
+│   │   │    
+│   │   └───mcts
+│   │   │   
+│   │   └───...
+│   │   │    
+│       └───rhea
 ```
 
 * \[arg index = 1\] Number of level generation seeds \[S\]. "-1" to execute with the ones from the paper (20). <br>
