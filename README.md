@@ -25,7 +25,7 @@ java-pommerman
 │   │   │   
 │   │   └───...
 │   │   │    
-│       └───rhea
+│   |   └───rhea
 ```
 
 * Clone this repository to the `players` package of `java-pommerman`: ``  
@@ -44,10 +44,12 @@ java-pommerman
 │   └───players
 │   │   │    
 │   │   └───mcts
+│   │   │    
+│   │   └───mctsbias
 │   │   │   
 │   │   └───...
 │   │   │    
-│       └───rhea
+│   |   └───rhea
 ```
 
 * \[arg index = 1\] Number of level generation seeds \[S\]. "-1" to execute with the ones from the paper (20). <br>
