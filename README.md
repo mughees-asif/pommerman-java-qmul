@@ -50,8 +50,7 @@ java-pommerman
 		* 5 MCTS 200 iterations, length: 12 <br>
 		* 6 Human Player (controls: cursor keys + space bar)  <br>
 
-
-Examples: 
+#### Examples: 
  * A single game with full observability, FFA. This is also the default mode when no arguments are passed:
  	* *java -jar run.jar 0 1 1 -1 2 3 4 5*
  * A single game with partial observability, FFA, where you're in control of one player:
