@@ -61,5 +61,11 @@ Examples:
  * Executes several games, headless, TEAM, repeated 10 times each. Same configuration as the one used in the paper, including the 20 seeds.
  	* *java -jar run.jar 1 -1 10 4 5 3 5 3* 
 
+### Contributors:
+
+* Azar Park
+* Mughees Asif
+* Shrabana Biswas Shruti 
+
 
 
